@@ -90,6 +90,19 @@ const config = {
             ],
           },
           {
+            title: '技术支持',
+            items: [
+              {
+                label: 'Vercel',
+                href: 'https://vercel.com/home'
+              },
+              {
+                label: 'SnowCherry',
+                href: 'https://github.com//SnowCherryServer',
+              },
+            ],
+          },
+          {
             title: '交流',
             items: [
               {
@@ -106,19 +119,6 @@ const config = {
               },
             ],
           },
-          {
-            title: '技术支持',
-            items: [
-              {
-                label: 'Vercel',
-                href: 'https://vercel.com/home'
-              },
-              {
-                label: 'SnowCherry',
-                href: 'https://github.com//SnowCherryServer',
-              },
-            ],
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} 2024 SnowyMC. | All Rights Reserved.`,
       },
@@ -130,4 +130,4 @@ const config = {
 
 };
 
-export default config;
+module.exports = config;
