@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'StarLand Wiki',
+  tagline: '一个特别专注的文档 ?',
+  url: 'https://wiki.mc233.fun',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,15 +16,15 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'SnowyMC', // Usually your GitHub org/user name.
+  projectName: 'StarLand-Wiki', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com//SnowCherryServer/docusaurus-2/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com//SnowCherryServer/docusaurus-2/edit/main/docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,13 +53,20 @@ const config = {
     ],
   ],
 
+  plugins: [
+    'plugin-image-zoom'
+  ],
+
+
+
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'StarLand-Wiki',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'StarLand Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,12 +74,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'StarLand',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://qm.qq.com/q/fpNjRd3Wpi',
+            label: 'QQ群',
             position: 'right',
           },
         ],
@@ -81,46 +88,46 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Tutorial',
+                label: 'StarLand',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '交流',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'QQ群',
+                href: 'https://qm.qq.com/q/fpNjRd3Wpi',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: '论坛',
+                href: 'https://zitbbs.com',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'BiliBili',
+                href: 'https://www.bilibili.com/video/BV1GJ411x7h7/',
               },
             ],
           },
           {
-            title: 'More',
+            title: '技术支持',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Vercel',
+                href: 'https://vercel.com/home'
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'SnowCherry',
+                href: 'https://github.com//SnowCherryServer',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 2024 SnowyMC. | All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
