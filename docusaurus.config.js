@@ -53,9 +53,9 @@ const config = {
     ],
   ],
 
-  plugins: [
-    'plugin-image-zoom'
-  ],
+  // plugins: [
+  //   'plugin-image-zoom'
+  // ],
 
 
 
