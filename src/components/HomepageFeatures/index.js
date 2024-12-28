@@ -24,12 +24,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: '超级省钱',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        由 Vercel 提供计算服务，因为没钱所以用免费的
       </>
     ),
   },
