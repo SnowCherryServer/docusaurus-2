@@ -52,71 +52,6 @@ const config = {
       }),
     ],
   ],
-  // plugins: [
-  //   "plugin-image-zoom",
-  // ],
-
-  plugins: [
-    'docusaurus-plugin-image-zoom',
-    'docusaurus-plugin-sass',
-  [
-    "@gracefullight/docusaurus-plugin-microsoft-clarity",
-    { projectId: "oyfswsvfpc" },
-  ],
-  [
-    '@docusaurus/plugin-content-docs',
-    {
-      id: 'docs-java',
-      path: 'docs-java',
-      routeBasePath: 'Java',
-      editUrl: 'https://github.com/8aka-Team/NitWikit/tree/main',
-      sidebarPath: require.resolve('./sidebars.js'),
-      editCurrentVersion: true,
-      showLastUpdateAuthor: true,
-      showLastUpdateTime: true,
-    }],[
-    '@docusaurus/plugin-pwa',
-    {
-      debug: true,
-      offlineModeActivationStrategies: [
-        'appInstalled',
-        'standalone',
-        'queryString',
-      ],
-      pwaHead: [
-        {
-          tagName: 'link',
-          rel: 'icon',
-          href: '/img/book.png',
-        },
-        {
-          tagName: 'link',
-          rel: 'manifest',
-          href: '/manifest.json', // your PWA manifest
-        },
-        {
-          tagName: 'meta',
-          name: 'theme-color',
-          content: 'rgb(37, 194, 160)',
-        },
-      ],
-    },
-  ],
-  [
-    '@docusaurus/plugin-content-docs',
-    {
-      id: 'docs-bedrock',
-      path: 'docs-bedrock',
-      routeBasePath: 'Bedrock',
-      editUrl: 'https://github.com/postyizhan/NitWikit/tree/main',
-      sidebarPath: require.resolve('./sidebars.js'),
-      editCurrentVersion: true,
-      showLastUpdateAuthor: true,
-      showLastUpdateTime: true,
-    },
-  ],
-],
-
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -192,23 +127,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-
-
-    // imageZoom: {
-    //   // CSS selector to apply the plugin to, defaults to '.markdown img'
-    //   selector: '.markdown img',
-    //   // Optional medium-zoom options
-    //   // see: https://www.npmjs.com/package/medium-zoom#options
-    //   options: {
-    //     margin: 24,
-    //     background: '#BADA55',
-    //     scrollOffset: 0,
-    //     container: '#zoom-container',
-    //     template: '#zoom-template',
-    //   },
-    // },
-
-
 
 };
 
