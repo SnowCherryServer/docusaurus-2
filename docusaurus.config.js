@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'StarLand-Wiki',
+        title: 'SnwoyMC Wiki',
         logo: {
           alt: 'StarLand Logo',
           src: 'img/logo.svg',
