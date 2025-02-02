@@ -1,17 +1,10 @@
 ---
-title: 前言
+title: 欢迎👋
 sidebar_position: 1
 ---
 
 ![](https://count.kjchmc.cn/get/@StarLand?theme=minecraft)
 
-# 1
-
-👋 11
-
-111
-
-111
 
 ## 2
 
