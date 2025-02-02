@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 2025 SnowyMC. | All Rights Reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} SnowyMC. | All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
