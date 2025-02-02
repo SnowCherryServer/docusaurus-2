@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'SnwoyMC Wiki',
+        title: 'StarLand Wiki',
         logo: {
           alt: 'StarLand Logo',
           src: 'img/logo.svg',
@@ -109,10 +109,10 @@ const config = {
                 label: 'QQ群',
                 href: 'https://qm.qq.com/q/fpNjRd3Wpi',
               },
-              {
-                label: '论坛',
-                href: 'https://zitbbs.com',
-              },
+              // {
+              //   label: '论坛',
+              //   href: 'https://zitbbs.com',
+              // },
               {
                 label: 'BiliBili',
                 href: 'https://www.bilibili.com/video/BV1GJ411x7h7/',
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 2024 SnowyMC. | All Rights Reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 2025 SnowyMC. | All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
