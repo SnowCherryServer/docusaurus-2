@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '更新迅速',
-    // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/furnace.svg').default,
     description: (
       <>
         只要服务器更新，本文档就会更新?
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: '简单易懂',
-    // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/grass.svg').default,
     description: (
       <>
         只需要眼点感光即可看懂
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: '超级省钱',
-    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/crafting-table.svg').default,
     description: (
       <>
         由 Vercel 提供计算服务，因为没钱所以用免费的
