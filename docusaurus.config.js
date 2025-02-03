@@ -65,7 +65,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'welcome',
+            docId: 'intro',
             position: 'left',
             label: 'StarLand',
           },
@@ -85,7 +85,7 @@ const config = {
             items: [
               {
                 label: 'StarLand',
-                to: '/docs/welcome',
+                to: '/docs/intro',
               },
             ],
           },
