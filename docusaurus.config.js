@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'StarLand Wiki',
   tagline: '一个特别专注的文档 ?',
-  url: 'https://wiki.mc233.fun',
+  url: 'https://wiki.mc233.fun/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'StarLand Wiki',
+        title: '首页',
         logo: {
           alt: 'StarLand Logo',
           src: 'img/logo.svg',
