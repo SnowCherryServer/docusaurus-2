@@ -49,7 +49,13 @@ sidebar_position: 1
 
 ![注册登录](https://s21.ax1x.com/2025/02/03/pEZRBRS.png)
 
-    - 下图展示为注册流程 **可忽略此部分**
+<Tabs className="unique-tabs">
+  <TabItem value="苹果">这是个苹果 🍎</TabItem>
+  <TabItem value="橙子">这是个橙子 🍊</TabItem>
+  <TabItem value="香蕉">这是个香蕉 🍌</TabItem>
+</Tabs>
+
+    <!-- - 下图展示为注册流程 **可忽略此部分**
 
 ```mermaid
 graph TD;
@@ -68,6 +74,6 @@ graph TD;
       注册或登录账号-->注册或登录成功;
       注册或登录账号-->注册或登录失败;
       注册或登录失败-->踢出服务器;
-```
+``` -->
 
 4. 最后，享受冒险吧！
