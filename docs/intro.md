@@ -40,7 +40,9 @@ sidebar_position: 1
 :::note
 
 主线 Play.mc233.fun
+
 备用1号 V1.MC233.Fun:44455
+
 备用2号 V2.MC233.Fun:44455
 
 :::
