@@ -35,6 +35,8 @@ sidebar_position: 1
   - 设置服务器资源包为 **启用** 模式
   - 填写 **正确** 服务器地址
   - 服务器地址 `(下方查看)`
+
+
 :::note
 
 主线 Play.mc233.fun
@@ -48,12 +50,5 @@ sidebar_position: 1
 1. 进入服务器后，请按照提示完成注册流程
 
 ![注册登录](https://s21.ax1x.com/2025/02/03/pEZRBRS.png)
-
-<Tabs className="unique-tabs">
-  <TabItem value="苹果">这是个苹果 🍎</TabItem>
-  <TabItem value="橙子">这是个橙子 🍊</TabItem>
-  <TabItem value="香蕉">这是个香蕉 🍌</TabItem>
-</Tabs>
-
 
 2. 最后，享受冒险吧！
