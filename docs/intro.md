@@ -3,7 +3,7 @@ title: 欢迎👋
 sidebar_position: 1
 ---
 
-<!-- ![](https://count.kjchmc.cn/get/@StarLand?theme=minecraft) -->
+![](https://count.kjchmc.cn/get/@StarLand?theme=minecraft)
 
 欢迎加入 **StarLad** 服务器，在游玩之前阅读以下内容可以快速帮助你上手服务器
 本篇教程为服务器基础教程，新手请认真学习
