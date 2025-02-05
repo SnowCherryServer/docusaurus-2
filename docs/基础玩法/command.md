@@ -24,6 +24,7 @@ sidebar_position: 3
 | /rules | 查看规则 | 等级I |
 | /ping | 查看延迟 | 等级I |
 | /list | 查看在线玩家 | 等级I |
+| /p h | 返回家园(地皮) | **等级III** |
 
 ### 常用快捷键
 
